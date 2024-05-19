@@ -2,44 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "Pacifico";
-  src: url("../public/fonts/Pacifico-Regular.ttf");
-  font-display: block;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: url("../public/fonts/Inter-Regular.ttf");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter-Bold";
-  src: url("../public/fonts/Inter-Bold.ttf");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Inter-Black";
-  src: url("../public/fonts/Inter-Black.ttf");
-  font-display: swap;
-}
-
 .font-pacifico {
-  font-family: "Pacifico", sans-serif !important;
+  font-family: var(--font-pacifico) !important;
 }
 
 .font-inter {
-  font-family: "Inter", sans-serif !important;
+  font-family: var(--font-inter) !important;
+  font-weight: 400;
 }
 
 .font-inter-bold {
-  font-family: "Inter-Bold", sans-serif !important;
+  font-family: var(--font-inter) !important;
+  font-weight: 700;
 }
 
 .font-inter-black {
-  font-family: "Inter-Black", sans-serif !important;
+  font-family: var(--font-inter) !important;
+  font-weight: 900;
 }
 
 body {
