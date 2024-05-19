@@ -33,7 +33,7 @@ function Navbar() {
           <ul className="flex gap-20">
             <li
               className={
-                location.pathname === "/"
+                location === "/"
                   ? "border-b-4 border-black py-1 relative h-10"
                   : "py-1 relative nav-link h-10"
               }
@@ -44,7 +44,7 @@ function Navbar() {
             </li>
             <li
               className={
-                location.pathname === "/faq"
+                location === "/faq"
                   ? "border-b-4 border-black py-1 relative h-10"
                   : "py-1 relative nav-link h-10"
               }
