@@ -3,21 +3,22 @@
 @tailwind utilities;
 
 .font-pacifico {
-  font-family: var(--font-pacifico) !important;
+  font-family: var(--font-pacifico);
+  font-weight: 400;
 }
 
 .font-inter {
-  font-family: var(--font-inter) !important;
+  font-family: var(--font-inter);
   font-weight: 400;
 }
 
 .font-inter-bold {
-  font-family: var(--font-inter) !important;
+  font-family: var(--font-inter);
   font-weight: 700;
 }
 
 .font-inter-black {
-  font-family: var(--font-inter) !important;
+  font-family: var(--font-inter);
   font-weight: 900;
 }
 

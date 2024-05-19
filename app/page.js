@@ -1,8 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import Pageload from "./components/Pageload";
-import { motion } from "framer-motion";
 import ScrollToTop from "./components/ScrollToTop";
+import { motion } from "framer-motion";
 
 function Home() {
   // Initialize runPageload based on session storage

@@ -1,19 +1,18 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import { Inter, Pacifico } from "next/font/google";
+import { Inter, Pacifico } from "@next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
-  display: "swap",
+  weight: "variable",
 });
 
 const pacifico = Pacifico({
   subsets: ["latin"],
   variable: "--font-pacifico",
   weight: "400",
-  display: "swap",
 });
 
 export const metadata = {
@@ -25,7 +24,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="de">
-      <body>
+      <body className={`${inter.variable} ${pacifico.variable}`}>
         <Navbar />
         <main>{children}</main>
         <Footer />
